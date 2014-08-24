@@ -36,3 +36,4 @@ Final_Dat<-cbind(a,b,Final_Dat)
 Final_Dat<-Final_Dat[,-3]
 names(Final_Dat)<-names(Dat2)
 Final_Dat<-Final_Dat[complete.cases(Final_Dat),]
+print(Dat2)
